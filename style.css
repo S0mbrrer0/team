@@ -13,6 +13,7 @@ body {
 	background-attachment: fixed; /* Фиксируем фон веб-страницы */
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	overflow-x: hidden; /*Нет горизонтальной прокрутки*/
 	;
 }
 
