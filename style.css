@@ -40,6 +40,7 @@ header {
 
 header .container {
 	display: flex; /* Включаем режим Flexbox. */
+	flex-wrap: wrap;
 	flex-direction: row; /* Держим элементы в строке */
 	justify-content: space-between; /* Распределяем элементы внутри шапки */
 	flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
