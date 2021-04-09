@@ -7,8 +7,8 @@
 body {
 	font-family: 'Rubik', sans-serif; /*тип шрифта по умолчанию*/
 	font-size: 24px; /*размер шрифта по умолчанию*/
-  	margin: 0;
-	max-width: 1024;	
+  	margin: 0 auto;
+	width: 1024px;	
 	background-image: url(img/bg.jpg); /*Путь к фону страницы*/
 	background-attachment: fixed; /* Фиксируем фон веб-страницы */
 	background-size: 100% 100%;
