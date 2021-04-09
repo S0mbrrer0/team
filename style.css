@@ -26,8 +26,8 @@ header, footer {
 	color: white; /* Цвет текста */
 	position: relative; /* Фиксированное положение */
 	text-align: center;
-	width: 1024px; /* Ширина слоя */
-	height: 120px;/*высота слоя*/
+	max-width: 1024px; /* Ширина слоя */
+	min-height: 120px;/*высота слоя*/
 	margin-left: auto;
     margin-right: auto;
     
