@@ -49,20 +49,22 @@ header .container {
 	flex-direction: row; /* Держим элементы в строке */
 	justify-content: space-between; /* Распределяем элементы внутри шапки */
 	flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
-	margin-bottom: 
 }
 
 header nav{
-	padding-top: 20px;
+	padding-top: 30px;
 }
 
 header a { /*Ссылки в шапке*/
-
 	color: #EEE8AA;
 	font-family: 'Roboto Slab', serif; /*Шрифт*/
 	font-size: 36px; /*размер шрифта*/
 	text-decoration: none; /*Убрать подчеркивание*/
-	margin: 0 50px 0 0; /*внешний отступ 50 справа*/
+	padding: 0 30px 50px 30px; /*внешний отступ 50 справа*/
+}
+
+a img {
+	padding: 0 0 0 50px;
 }
 
 .container .logotype {
