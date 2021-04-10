@@ -32,8 +32,7 @@ header, footer {
 	position: relative; /* Фиксированное положение */
 	text-align: center;
 	max-width: 100%; /* Ширина слоя */
-	min-height: 120px;/*высота слоя*/
-	max-height: 300px;
+	min-height: 120px;/*высота слоя*/ 
 	margin-left: auto;
     margin-right: auto;
     
@@ -54,6 +53,7 @@ header .container {
 
 header nav{
 	padding-top: 30px;
+	margin-bottom: 30px;
 }
 
 header a { /*Ссылки в шапке*/
