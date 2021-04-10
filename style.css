@@ -76,7 +76,7 @@ header a { /*Ссылки в шапке*/
 .container { /*header/main/footer*/
   width: 100%;
   max-width: 1200px; /*максимальная ширина может иметь другое значение*/
-  padding: 0 15px;
+  padding: 0;
   margin: 10px auto;
 }
 
