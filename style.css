@@ -53,7 +53,7 @@ header .container {
 
 header nav{
 	padding-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 5%;
 }
 
 header a { /*Ссылки в шапке*/
@@ -61,7 +61,7 @@ header a { /*Ссылки в шапке*/
 	font-family: 'Roboto Slab', serif; /*Шрифт*/
 	font-size: 36px; /*размер шрифта*/
 	text-decoration: none; /*Убрать подчеркивание*/
-	padding: 0 30px 50px 30px; /*внешний отступ 50 справа*/
+	padding: 0 30px 0 30px; /*внешний отступ 50 справа*/
 }
 
 a img {
