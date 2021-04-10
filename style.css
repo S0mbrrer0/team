@@ -13,7 +13,7 @@ body {
 	font-size: 24px; /*размер шрифта по умолчанию*/
   	margin: 0 auto;
 	max-width: 1200px;	
-	background-image: url(img/bg.jpg); /*Путь к фону страницы*/
+	background-image: url(img/bg1.jpg); /*Путь к фону страницы*/
 	background-attachment: fixed; /* Фиксируем фон веб-страницы */
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -26,8 +26,7 @@ a:hover, .developed a:hover { /*При наведении на ссылку те
 }
 
 header, footer {
-	background-image: linear-gradient(to bottom, #800000 90%, white);
-	/*background-color: #800000; /* Цвет фона */
+	
 	color: white; /* Цвет текста */
 	position: relative; /* Фиксированное положение */
 	text-align: center;
@@ -39,6 +38,8 @@ header, footer {
 }
 
 header {
+	background-image: linear-gradient(to bottom, #540203 90%, white);
+	/*background-color: #540203; /* Цвет фона */
 	padding: 5px 0 0 0;
 	margin-bottom: 0;
 }
@@ -65,7 +66,7 @@ header a { /*Ссылки в шапке*/
 }
 
 a img {
-	padding: 0 0 0 50px;
+	padding: 0 0 20px 50px;
 }
 
 .container .logotype {
@@ -80,7 +81,7 @@ a img {
   width: 100%;
   max-width: 1200px; /*максимальная ширина может иметь другое значение*/
   padding: 0;
-  margin: 10px auto;
+  margin: 0;
 }
 
 .main .container { /*main*/
@@ -121,7 +122,7 @@ h1{
 /*Подвал Сайта*/
 
 footer {
-	background-image: linear-gradient(to top, #800000 90%, white);
+	background-image: linear-gradient(to top, #540203 90%, white);
 	min-height: 120px;
     margin-bottom: 0;
     margin-top: -10px;
