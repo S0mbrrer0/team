@@ -61,6 +61,10 @@ header a { /*Ссылки в шапке*/
 	margin: 0 50px 0 0; /*внешний отступ 50 справа*/
 }
 
+.container .logotype {
+	max-width: 50%;
+}
+
 .logo {	 /*Ссылка-логотип*/
 	padding-left: 0;
 }
