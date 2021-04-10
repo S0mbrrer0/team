@@ -83,6 +83,7 @@ header a { /*Ссылки в шапке*/
 .main .container { /*main*/
 	background-color: white;
 	min-height: 80vh;
+	max-width: 100%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;	
