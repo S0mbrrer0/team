@@ -21,9 +21,6 @@ body {
 	;
 }
 
-a:hover, .developed a:hover { /*При наведении на ссылку текст меняется*/
-	color: #FFD700;
-}
 
 header, footer {
 	
@@ -69,50 +66,7 @@ a img {
 	padding: 0 0 20px 50px;
 }
 
-.container .logotype {
-	max-width: 50%;
-}
 
-.logo {	 /*Ссылка-логотип*/
-	padding-left: 0;
-}
-
-.container { /*header/main/footer*/
-  width: 100%;
-  max-width: 1200px; /*максимальная ширина может иметь другое значение*/
-  padding: 0;
-  margin: 0;
-}
-
-.main .container { /*main*/
-	background-color: white;
-	min-height: 100vh;
-	max-width: 100%;
-	display: flex;
-	align-items: center;
-	flex-direction: column;	
-	padding: 0;
-	margin-top: 0px;
-}
-
-.main {
-	margin-top: -10px;
-	margin-bottom: 0;
-}
-
-.logotype {
-	padding-top: 0;
-	order: -1;
-}
-
-h1{
-	font-family: 'Rubik', sans-serif;
-	font-size: 36px;
-}
-
-.container p {
-	padding: 0 50px 50px;
-}
 
 /*Подвал Сайта*/
 
@@ -149,4 +103,8 @@ footer .footer-page {
 .developed a {
 	color: #EEE8AA;
 	text-decoration: none; /*Убрать подчеркивание*/
+}
+
+a:hover, .developed a:hover { /*При наведении на ссылку текст меняется*/
+	color: #FFD700;
 }
